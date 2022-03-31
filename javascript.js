@@ -18,7 +18,7 @@ class Paciente {
         this.#diagnostico = diagnostico;
     }
 get diagnostico () {
-return {diagnostico: this.#diagnostico} 
+return {diagnostico: this.diagnostico} 
 }
 
 }
